@@ -1,0 +1,12 @@
+# example of set type datatype
+# syntax: !!set
+
+
+# example of using !!set
+names: !!set
+  ? 'X'
+  ? '\',
+  ? 'Y'
+
+
+
