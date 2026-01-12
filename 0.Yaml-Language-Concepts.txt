@@ -32,4 +32,19 @@ See the different serialization languages:
          ]
       }
 
+Use Cases Of Yaml
+-----------------
+- Docker Compose File
+- Ansible
+- Kubernetes
+- Prometheus
 
+Data Types Of Yaml
+------------------
+1. key-value pairs
+2. objects
+3. lists
+4. booleans
+5. multi line string
+6. env variables
+7. comments

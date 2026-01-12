@@ -1,0 +1,14 @@
+# yaml key value pair
+app: user-authentication
+port: 9000
+version: 1.7
+
+
+
+
+
+# yaml setup inside a object
+microservice:
+  app: "user-authentication"
+  port: 9000
+  version: 1.0
