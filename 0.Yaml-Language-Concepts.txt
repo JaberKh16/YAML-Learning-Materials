@@ -1,7 +1,7 @@
 YAML Learning Material Concepts
 ===============================
 - Yaml is a data serialization language.
-- Yaml ain't a markup language.
+- Yaml stands for Yaml ain't a markup language.
 - It's file extension are like - .yaml, .yml
 - It is superset of JSOn: any valid json file is a also a valid YAML file
 
@@ -39,8 +39,8 @@ Use Cases Of Yaml
 - Kubernetes
 - Prometheus
 
-Data Types Of Yaml
-------------------
+Features Of Yaml
+-----------------
 1. key-value pairs
 2. objects
 3. lists
@@ -48,6 +48,8 @@ Data Types Of Yaml
 5. multi line string
 6. env variables
 7. comments
+8. placeholders
+9. components
 
 Comments In Yaml
 ----------------
@@ -92,5 +94,22 @@ b. SingleLine String
          whcih later can be single line
          because of the special character arrow(>)
 
+
+Placeholders In Yaml
+--------------------
+- placeholders are used in Yaml
+- to use placeholder {{ }} is used
+
+   data: {{ .Values.series.app }}
+
+Components In Yaml
+------------------
+- component in Yaml is used to configure or setup multiple document inside a file
+- syntax of component:  
+      --- 
+         appVersion: v1
+         data: 
+            appName: 'Visor'
+            version: 1.1.2
 
 
