@@ -1,0 +1,6 @@
+# list in yaml
+# - is used to create a list
+microservice:
+    - app: user-auth
+      port: 9000
+      version: 1.3.1
