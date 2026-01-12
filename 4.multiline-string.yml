@@ -1,0 +1,14 @@
+# script used in kibana
+command:
+    - sh
+    - -c
+    - |
+      #!/usr/bin/env bash -e
+      http() {
+        local path="${1}"
+        set -- -XGET -s --fail
+        # some more staff
+        curl -k "$@" "http://localhost:5601${path}"
+      }
+    http "/app/kibana"
+
