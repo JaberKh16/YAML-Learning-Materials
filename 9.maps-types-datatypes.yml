@@ -1,0 +1,12 @@
+# example of map types
+# syntax: !! or {k1:v1, k2:v2}
+
+---
+user_data: !!maps
+  name: "Name"
+  age: 23
+  role: Engineer
+
+
+---
+user_info: { name: "Name", age: 23, role: Engineer }
