@@ -51,15 +51,22 @@ Use Cases Of Yaml
 
 Features Of Yaml
 -----------------
+- available features in yaml:
 1. key-value pairs
 2. objects
-3. lists
+3. lists/sequence => [], -, !!seq
 4. booleans
-5. multi line string
+5. multi line string => |, >
 6. env variables
-7. comments
+7. comments  => #
 8. placeholders
-9. components
+9. components => ---
+10.anchors    => &anchor_name,   <<: *anchor_name 
+11.pairs      => !!pairs
+12.sets       => !!set
+13.dictionary => !!omap
+
+
 
 Comments In Yaml
 ----------------
