@@ -1,0 +1,34 @@
+# exmaple of data types via specify their types
+# syntax: !!type 
+
+# string type
+message: !!str this is string type data
+
+# integer type
+zero: !!int 0
+positiveNum: !!int 12
+negativeNum: !!int -112
+binaryNum: !!int 0b110011
+octalNum: !!int 02322
+hexNum: !int 0x12
+commaValue: !!int +231_000  # resulted as 231,000
+
+
+# floating type
+num1: !!float 21.12
+infinite: !!float .inf
+
+
+# not an number
+notANumber: .nan
+
+
+# boolean type
+is_data: !!bool yes
+
+# null type
+user_data: !!null null  # NULL, null, ~
+~: this is also null
+
+
+
