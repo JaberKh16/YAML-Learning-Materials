@@ -1,0 +1,35 @@
+YAML Learning Material Concepts
+===============================
+- Yaml is a data serialization language.
+- Yaml ain't a markup language.
+- It's file extension are like - .yaml, .yml
+- It is superset of JSOn: any valid json file is a also a valid YAML file
+
+See the different serialization languages:
+   1. YAML Version
+      microservices:
+         - app: user-authentication
+           port: 9000
+           version: 1.0
+
+   2. XML Version:
+      <microservices>
+         <microservice>
+            <app>user-authentication</app>
+            <port>9000</app>
+            <version>1.0</version>
+         </microservice>
+      </microservices>
+
+   3. JSON Version:
+      {
+         microservices:[
+            {
+               app: "user_authentication",
+               portL: 9000,
+               version: "1.0"
+            }
+         ]
+      }
+
+
