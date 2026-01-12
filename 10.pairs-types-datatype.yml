@@ -1,0 +1,14 @@
+# example of pair types datatypes
+# syntax: !!pairs
+# pairs: key value pairs which can have duplicate values
+
+
+# this will be hashtable containing arrays
+pair_example: !!pairs
+  - job: student
+  - job: engineer
+
+
+
+# another example using !!pairs []
+another_pair: !!pairs [job: teacher, job: pion]
