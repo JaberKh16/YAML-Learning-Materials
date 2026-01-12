@@ -4,7 +4,7 @@ YAML Learning Material Concepts
 - Yaml stands for Yaml ain't a markup language.
 - It's file extension are like - .yaml, .yml
 - It is superset of JSOn: any valid json file is a also a valid YAML file
-
+- Its a case sensitive language
 
 Site For YAML Language
 ----------------------
@@ -114,7 +114,8 @@ Placeholders In Yaml
 
 Components In Yaml
 ------------------
-- component in Yaml is used to configure or setup multiple document inside a file
+- component in Yaml is used to configure or setup multiple document inside a yaml file
+- its basically separate the document in a yaml file
 - syntax of component:  
       --- 
          appVersion: v1
@@ -123,3 +124,6 @@ Components In Yaml
             version: 1.1.2
 
 
+End Of Document In Yaml
+-----------------------
+- to define the end of yaml use ... 
