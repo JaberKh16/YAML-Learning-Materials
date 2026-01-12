@@ -1,0 +1,20 @@
+# example of anchors
+# anchors is a concept of copy pasting similar or resuable things/properties
+# syntax:   &anchor_name  # to make an anchor  <<: *anchor_name   # to use the anchor
+
+likings: &likes
+  fav fruits: grapes
+  fav hobby: traveling
+  fav_song: "Sun Shine"
+
+
+person1:
+    name: "X"
+    <<: *likes
+
+
+person2:
+    name: 'Y'
+    <<: *likes
+
+
