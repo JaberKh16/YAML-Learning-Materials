@@ -48,3 +48,16 @@ Data Types Of Yaml
 5. multi line string
 6. env variables
 7. comments
+
+Comments In Yaml
+----------------
+- using # the comment has been done in yaml
+
+List In Yaml
+------------
+- to create a list  - been used
+   Syntax:
+      services:
+         - list-of-services: 'available'
+           version:12.21.1
+
