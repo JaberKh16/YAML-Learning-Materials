@@ -74,3 +74,23 @@ Booleans In Yaml
    3. on/off
 
 
+Multiline Or Single Line In Yaml
+--------------------------------
+a. Multiline String
+   - use | to setup the multiline string
+   - example:
+      multilineString: |
+         this is a multiline string
+         which can be used to setup 
+         a multiline string having multiline
+
+b. SingleLine String
+   - use > to setup the single line string
+   - example:
+      singlelineString: >
+         this is a single line string 
+         whcih later can be single line
+         because of the special character arrow(>)
+
+
+
