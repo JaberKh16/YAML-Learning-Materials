@@ -1,0 +1,26 @@
+# example of multiple document using single yaml file
+# it uses --- to separate the document
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mosquitto-config-file
+data:
+  mosquitto.conf: |
+    log_dest stdout
+    log_type all
+    log_timestamp true
+    listener 9000
+
+
+# other configuration 
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mosquitto-secret-file
+type: Opaque
+data:
+  secret.file:
+    c215346sfsfsfvgerwrwqewgfwerwffvheudfywueujiwjefiyw7eywhffdwe213ksjfsu=
+
