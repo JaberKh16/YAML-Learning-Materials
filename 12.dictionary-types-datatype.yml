@@ -1,0 +1,19 @@
+# example of dictionary datatype
+# syntax: !!omap
+# dictionary is datatype where each key has its sequence/list values
+
+
+# usage of dictionary
+people: !!omap
+  - people1: 
+      name: 'X'
+      age: 23
+  !!seq people2:
+    name: 'Y'
+    age: 30
+
+  - people3:
+      name: 'Z'
+      age: 32
+
+
